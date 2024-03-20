@@ -1,7 +1,8 @@
-import 'package:best_flutter_ui_templates/fitness_app/Robotics/home_robots.dart';
-import 'package:best_flutter_ui_templates/fitness_app/models/tabIcon_data.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Energy/LightControl.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Camera/camera_home_screen.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Robotics/home_robots.dart';
+import 'package:best_flutter_ui_templates/TessanApp/models/tabIcon_data.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Energy/LightControl.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Camera/camera_home_screen.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Notifications/Notification_screen.dart';
 import 'package:flutter/material.dart';
 import 'bottom_navigation_view/bottom_bar_view.dart';
 import 'fitness_app_theme.dart';
@@ -117,6 +118,15 @@ class _FitnessAppHomeScreenState extends State<FitnessAppHomeScreen>
                 }
                 setState(() {
                   tabBody = HotelHomeScreen();
+                });
+              });
+            } else if (index == 4) {
+              animationController?.reverse().then<dynamic>((data) {
+                if (!mounted) {
+                  return;
+                }
+                setState(() {
+                  tabBody = MyNotficationPage();
                 });
               });
             }

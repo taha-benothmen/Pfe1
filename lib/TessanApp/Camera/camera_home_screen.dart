@@ -1,6 +1,6 @@
-import 'package:best_flutter_ui_templates/fitness_app/Camera/calendar_popup_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Camera/camera_list_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Camera/model/camera_list_data.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Camera/calendar_popup_view.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Camera/camera_list_view.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Camera/model/camera_list_data.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intl/intl.dart';

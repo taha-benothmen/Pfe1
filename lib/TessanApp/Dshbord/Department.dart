@@ -1,10 +1,10 @@
-import 'package:best_flutter_ui_templates/fitness_app/ui_view/DataDasbord.dart';
-import 'package:best_flutter_ui_templates/fitness_app/ui_view/glass_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/ui_view/StaffMonitoring.dart';
-import 'package:best_flutter_ui_templates/fitness_app/ui_view/title_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/fitness_app_theme.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Dshbord/RobotsList.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Dshbord/ClimateCommand.dart';
+import 'package:best_flutter_ui_templates/TessanApp/ui_view/DataDasbord.dart';
+import 'package:best_flutter_ui_templates/TessanApp/ui_view/glass_view.dart';
+import 'package:best_flutter_ui_templates/TessanApp/ui_view/StaffMonitoring.dart';
+import 'package:best_flutter_ui_templates/TessanApp/ui_view/title_view.dart';
+import 'package:best_flutter_ui_templates/TessanApp/fitness_app_theme.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Dshbord/RobotsList.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Dshbord/ClimateCommand.dart';
 import 'package:flutter/material.dart';
 
 class MyDiaryScreen extends StatefulWidget {

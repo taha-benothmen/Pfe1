@@ -1,7 +1,7 @@
-import 'package:best_flutter_ui_templates/fitness_app/Robotics/home_robots.dart';
-import 'package:best_flutter_ui_templates/fitness_app/fitness_app_home_screen.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Camera/camera_home_screen.dart';
-import 'package:best_flutter_ui_templates/introduction_animation/introduction_animation_screen.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Robotics/home_robots.dart';
+import 'package:best_flutter_ui_templates/TessanApp/fitness_app_home_screen.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Camera/camera_home_screen.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Notifications/Notification_screen.dart';
 import 'package:flutter/widgets.dart';
 
 class HomeList {
@@ -20,7 +20,7 @@ class HomeList {
   static List<HomeList> homeList = [
     HomeList(
       imagePath: 'assets/introduction_animation/introduction_animation.png',
-      navigateScreen: IntroductionAnimationScreen(),
+      navigateScreen: MyNotficationPage(),
       title: 'Department 1',
     ),
     HomeList(

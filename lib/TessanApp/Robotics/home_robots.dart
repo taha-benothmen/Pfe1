@@ -1,7 +1,7 @@
-import 'package:best_flutter_ui_templates/fitness_app/Robotics/category_list_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Robotics/robots_info_screen.dart';
-import 'package:best_flutter_ui_templates/fitness_app/Robotics/popular_robots_list_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/fitness_app_theme.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Robotics/category_list_view.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Robotics/robots_info_screen.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Robotics/popular_robots_list_view.dart';
+import 'package:best_flutter_ui_templates/TessanApp/fitness_app_theme.dart';
 import 'package:best_flutter_ui_templates/main.dart';
 import 'package:flutter/material.dart';
 import 'design_robots_app_theme.dart';

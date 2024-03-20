@@ -1,5 +1,5 @@
-import 'package:best_flutter_ui_templates/fitness_app/fitness_app_theme.dart';
-import 'package:best_flutter_ui_templates/fitness_app/models/RobotsManagmentList.dart';
+import 'package:best_flutter_ui_templates/TessanApp/fitness_app_theme.dart';
+import 'package:best_flutter_ui_templates/TessanApp/models/RobotsManagmentList.dart';
 import 'package:best_flutter_ui_templates/main.dart';
 import 'package:flutter/material.dart';
 
