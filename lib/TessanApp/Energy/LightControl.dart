@@ -213,7 +213,7 @@ class _TrainingScreenState extends State<TrainingScreen>
                                   style: TextStyle(
                                     fontFamily: FitnessAppTheme.fontName,
                                     fontWeight: FontWeight.w700,
-                                    fontSize: 22 + 6 - 6 * topBarOpacity,
+                                    fontSize: 15 + 3 - 3 * topBarOpacity,
                                     letterSpacing: 1.2,
                                     color: FitnessAppTheme.darkerText,
                                   ),
@@ -257,7 +257,7 @@ class _TrainingScreenState extends State<TrainingScreen>
                                     style: TextStyle(
                                       fontFamily: FitnessAppTheme.fontName,
                                       fontWeight: FontWeight.normal,
-                                      fontSize: 18,
+                                      fontSize: 15,
                                       letterSpacing: -0.2,
                                       color: FitnessAppTheme.darkerText,
                                     ),

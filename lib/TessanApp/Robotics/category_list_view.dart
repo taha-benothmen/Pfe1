@@ -165,7 +165,7 @@ class CategoryView extends StatelessWidget {
                                                   textAlign: TextAlign.left,
                                                   style: TextStyle(
                                                     fontWeight: FontWeight.w200,
-                                                    fontSize: 12,
+                                                    fontSize: 10,
                                                     letterSpacing: 0.27,
                                                     color: DesignCourseAppTheme
                                                         .grey,

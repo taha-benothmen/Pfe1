@@ -24,7 +24,7 @@ environment:
 dependencies:
     flutter:
         sdk: flutter
-
+    mqtt_client: ^10.2.0
     # The following adds the Cupertino Icons font to your application.
     # Use with the CupertinoIcons class for iOS style icons.
     cupertino_icons: ^1.0.2
@@ -36,11 +36,16 @@ dependencies:
     toggle_switch: ^2.1.0
     exprollable_page_view: ^1.0.0-rc.2
     stacked_notification_cards: ^0.1.0-dev.2
+    provider: ^6.1.2
+    qr_code_scanner: ^1.0.1
+    mobile_scanner: ^4.0.1
+    qr_flutter: ^4.1.0
 
 
 dev_dependencies:
     flutter_test:
         sdk: flutter
+        
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,6 +64,7 @@ flutter:
         - assets/fitness_app/
         - assets/Camera/
         - assets/introduction_animation/
+        
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.dev/assets-and-images/#resolution-aware.

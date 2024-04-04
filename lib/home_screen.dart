@@ -53,6 +53,33 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   appBar(),
+                  Padding(
+                    padding: const EdgeInsets.all(14.0),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons
+                              .label_important, // Replace Icons.work with the icon you want to use
+                          color:
+                              isLightMode ? AppTheme.darkText : AppTheme.white,
+                          size: 24, // Adjust the size of the icon as needed
+                        ),
+                        SizedBox(
+                            width:
+                                8), // Add some space between the icon and text
+                        Text(
+                          'Choose your Department section',
+                          style: TextStyle(
+                            fontSize: 18,
+                            color: isLightMode
+                                ? AppTheme.darkText
+                                : AppTheme.white,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(
                     child: FutureBuilder<bool>(
                       future: getData(),

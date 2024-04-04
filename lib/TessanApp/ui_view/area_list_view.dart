@@ -155,11 +155,11 @@ class AreaView extends StatelessWidget {
                           minHeight: 40.0,
                           cornerRadius: 20.0,
                           activeBgColors: [
-                            [Colors.green[800]!],
-                            [Colors.red[800]!]
+                            [const Color.fromARGB(193, 46, 125, 50)!],
+                            [const Color.fromARGB(208, 198, 40, 40)!]
                           ],
                           activeFgColor: Colors.white,
-                          inactiveBgColor: Color(0xFF2633C5),
+                          inactiveBgColor: Color.fromARGB(168, 134, 136, 152),
                           inactiveFgColor: Colors.white,
                           initialLabelIndex: 1,
                           totalSwitches: 2,

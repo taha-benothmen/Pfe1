@@ -20,12 +20,12 @@ class HomeList {
   static List<HomeList> homeList = [
     HomeList(
       imagePath: 'assets/introduction_animation/introduction_animation.png',
-      navigateScreen: MyNotficationPage(),
+      navigateScreen: FitnessAppHomeScreen(),
       title: 'Department 1',
     ),
     HomeList(
       imagePath: 'assets/introduction_animation/introduction_animation.png',
-      navigateScreen: HotelHomeScreen(),
+      navigateScreen: FitnessAppHomeScreen(),
       title: 'Department 2',
     ),
     HomeList(
@@ -35,7 +35,7 @@ class HomeList {
     ),
     HomeList(
       imagePath: 'assets/introduction_animation/introduction_animation.png',
-      navigateScreen: DesignCourseHomeScreen(),
+      navigateScreen: FitnessAppHomeScreen(),
       title: 'Department 4',
     ),
   ];

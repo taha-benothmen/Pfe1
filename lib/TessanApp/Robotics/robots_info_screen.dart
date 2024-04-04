@@ -236,15 +236,19 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                       ),
                                       child: Center(
                                         child: ToggleSwitch(
-                                          minWidth: 135.0,
+                                          minWidth: 120.0,
                                           minHeight: 50.0,
                                           cornerRadius: 10.0,
                                           activeBgColors: [
-                                            [Colors.green[800]!],
-                                            [Colors.red[800]!]
+                                            [
+                                              const Color.fromARGB(
+                                                  176, 46, 125, 50)!
+                                            ],
+                                            [Color.fromARGB(214, 198, 40, 40)!]
                                           ],
                                           activeFgColor: Colors.white,
-                                          inactiveBgColor: Color(0xFF2633C5),
+                                          inactiveBgColor: Color.fromARGB(
+                                              108, 172, 172, 172),
                                           inactiveFgColor: Colors.white,
                                           initialLabelIndex: 1,
                                           totalSwitches: 2,

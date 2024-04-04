@@ -6,7 +6,8 @@ class HomeDrawer extends StatefulWidget {
       {Key? key,
       this.screenIndex,
       this.iconAnimationController,
-      this.callBackIndex, AnimationController? animationController})
+      this.callBackIndex,
+      AnimationController? animationController})
       : super(key: key);
 
   final AnimationController? iconAnimationController;
@@ -40,23 +41,8 @@ class _HomeDrawerState extends State<HomeDrawer> {
       ),
       DrawerList(
         index: DrawerIndex.FeedBack,
-        labelName: 'FeedBack',
-        icon: Icon(Icons.help),
-      ),
-      DrawerList(
-        index: DrawerIndex.Invite,
-        labelName: 'Invite Friend',
-        icon: Icon(Icons.group),
-      ),
-      DrawerList(
-        index: DrawerIndex.Share,
-        labelName: 'Rate the app',
-        icon: Icon(Icons.share),
-      ),
-      DrawerList(
-        index: DrawerIndex.About,
-        labelName: 'About Us',
-        icon: Icon(Icons.info),
+        labelName: 'Report',
+        icon: Icon(Icons.report),
       ),
     ];
   }

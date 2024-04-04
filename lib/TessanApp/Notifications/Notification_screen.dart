@@ -1,4 +1,5 @@
 import 'package:best_flutter_ui_templates/TessanApp/Camera/camera_app_theme.dart';
+import 'package:best_flutter_ui_templates/TessanApp/Robotics/design_robots_app_theme.dart';
 import 'package:best_flutter_ui_templates/TessanApp/fitness_app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked_notification_cards/stacked_notification_cards.dart';
@@ -137,13 +138,13 @@ class _MyNotficationPageState extends State<MyNotficationPage> {
       ),
       child: Padding(
         padding:
-            EdgeInsets.only(left: 0, right: 0, top: 16 - 8.0, bottom: 12 - 8.0),
+            EdgeInsets.only(left: 0, right: 0, top: 40 - 8.0, bottom: 12 - 8.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
               alignment: Alignment.centerLeft,
-              width: AppBar().preferredSize.height + 10,
+              width: AppBar().preferredSize.height - 40,
               height: AppBar().preferredSize.height,
               child: Material(
                 color: Colors.transparent,
@@ -151,22 +152,18 @@ class _MyNotficationPageState extends State<MyNotficationPage> {
                   borderRadius: const BorderRadius.all(
                     Radius.circular(32.0),
                   ),
-                  onTap: () {
-                    Navigator.pop(context);
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Icon(Icons.arrow_back),
-                  ),
                 ),
               ),
             ),
             Expanded(
               child: Text(
                 'Notification',
+                textAlign: TextAlign.left,
                 style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 15,
+                  letterSpacing: 0.27,
+                  color: DesignCourseAppTheme.darkerText,
                 ),
               ),
             ),
@@ -210,7 +207,7 @@ class _MyNotficationPageState extends State<MyNotficationPage> {
                           style: TextStyle(
                             fontFamily: FitnessAppTheme.fontName,
                             fontWeight: FontWeight.normal,
-                            fontSize: 18,
+                            fontSize: 15,
                             letterSpacing: -0.2,
                             color: FitnessAppTheme.darkerText,
                           ),

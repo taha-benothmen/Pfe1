@@ -61,16 +61,7 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
             screenView = HelpScreen();
           });
           break;
-        case DrawerIndex.FeedBack:
-          setState(() {
-            screenView = FeedbackScreen();
-          });
-          break;
-        case DrawerIndex.Invite:
-          setState(() {
-            screenView = InviteFriend();
-          });
-          break;
+       
         default:
           break;
       }
